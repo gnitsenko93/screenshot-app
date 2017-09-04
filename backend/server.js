@@ -25,6 +25,10 @@ const getId = (function () {
   }
 })();
 
+app.get('/', function(req, res) {
+  res.sendFile(__dirname + '/assets/js/index.html');
+});
+
 app.get('/api/media', function (req, res) {
   const query = url.parse(req.url, true).query;
   const id = getId(query);
