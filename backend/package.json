@@ -1,0 +1,19 @@
+{
+  "name": "screenshot-app-backend",
+  "version": "0.0.1",
+  "description": "A backend part for the Screenshot App",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "fs": "^0.0.1-security",
+    "mongodb": "^2.2.31",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Greg Nitsenko",
+  "license": "ISC"
+}
